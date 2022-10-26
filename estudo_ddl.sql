@@ -93,3 +93,16 @@ VALUES
 
 select *
 from Aluno;
+
+UPDATE `teste`.`aluno`
+SET `rg` = 9876
+WHERE `matricula` = 21;
+
+select*
+from aluno;
+
+delete from aluno
+where matricula = 21;
+
+select *
+from aluno;
